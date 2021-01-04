@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <style>
+          h1 {
+              font-family: fantasy;
+              background-color:mediumslateblue;
+              color: orange;
+              text-align: center;
+          }
+          body {
+              display:grid;
+              grid-template-columns: repeat(3,1fr);
+              gap: 10px;
+              background-color:mediumpurple;
+          }
+          .heading {
+              height:100px;
+              grid-column-start: 1;
+              grid-column-end: 4;
+          }
+          .gif {
+              height: 350px;
+              background-size: cover;
+              background-position: 50% 50%;
+              padding-left: 10px;
+              padding-right: 10px;
+          }
+          #gif-1 {
+              background-image: url("gif-1.gif");
+          }
+          #gif-2 {
+              background-image: url("gif-2.gif");
+          }
+          #gif-3 {
+              background-image: url("gif-3.gif");
+          }
+          #gif-4 {
+              background-image: url("gif-4.gif");
+          }
+          #gif-5 {
+              background-image: url("gif-5.gif");
+          }
+          #gif-6 {
+              background-image: url("gif-6.gif");
+          }
+      </style>
+      <title>go away</title>
+  </head>
+  <body>
+    <div class="heading">
+    <h1>Leave. Please.</h1> </div>
+    <div class="gif" id="gif-1"></div>
+    <div class="gif" id="gif-2"></div>
+    <div class="gif" id="gif-3"></div>
+    <div class="gif" id="gif-4"></div>
+    <div class="gif" id="gif-5"></div>
+    <div class="gif" id="gif-6"></div>
+  </body>
+</html>
